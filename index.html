@@ -14,21 +14,28 @@
 
 </head>
 <body>
-    
+
 <!-- header section starts  -->
 
 <header>
 
-    <img class="logo" src="images/logo.jpeg" alt="logo" style="width: 40px; height: auto;">
-
-
-    <div id="menu" class="fas fa-bars"></div>
-
     <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#project">project</a>
-        <a href="#contact">Contact Us</a>
+        <div class="nav-brand">
+            <img src="images/logo.jpeg" alt="Enviral Logo"/>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <!--        <div class="menu-icon">-->
+        <!--            &lt;!&ndash; Hamburger Menu Icon &ndash;&gt;-->
+        <!--            <div></div>-->
+        <!--            <div></div>-->
+        <!--            <div></div>-->
+        <!--        </div>-->
     </nav>
+
 
 </header>
 
@@ -37,75 +44,82 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
     <div class="content">
-        <h3>save the planet</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere quidem quae debitis reiciendis, nihil error? Doloribus dicta aliquam quidem excepturi.</p>
-        <a href="#" class="btn">get started</a>
+        <p class="tagline">ADVERTISING WITH A GREEN TWIST</p>
+        <h1>ENVIRAL</h1>
+        <a href="#contact" class="contact-button">Contact Now</a>
     </div>
-
 </section>
+
 
 <!-- home section ends -->
 
 <!-- project section starts  -->
 
 <section class="project" id="project">
-
-    <h1 class="heading">Our Project</h1>
-
-
-
+  <div class="text-content">
+    <h1>Our Story</h1>
+    <p>Welcome to Enviral, where innovative advertising meets sustainability. At Enviral, we're not just an advertising company; we're a movement dedicated to reshaping the industry for a better, greener future.</p>
+    <p>Our journey began with a simple belief: that advertising can be a force for positive change. We embarked on a mission to combine creativity, technology, and eco-conscious practices to create advertising solutions that not only captivate audiences but also contribute to a more sustainable planet.</p>
+  </div>
+  <div class="image-content">
+    <!-- Replace 'your-image.jpg' with the actual path to your image -->
+    <img src="images/4.webp" alt="logo1" />
+  </div>
 </section>
 
-<!-- project section ends -->
+<!-- create contact us  -->
 
-<!-- donate section starts  -->
-
-<section class="contact" id="contact">
-
-
+<section class="contact-us" id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <p>If you have any questions, please feel free to reach out to us:</p>
+    <ul>
+      <li>Email: info@enviral.com</li>
+      <li>Phone: +91 7207145778</li>
+      <li>Address: Hyderabad,Telangana</li>
+    </ul>
+  </div>
+  <div class="contact-form">
+    <form action="/submit-form" method="post">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
 </section>
 
-<!-- donate section ends -->
 
 
-<!-- footer section starts  -->
-
-<div class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>About us</h3>
-            <p>We are ?</p>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#home">home</a>
-            <a href="#project">project</a>
-            <a href="#contact">contact</a>
-        </div>
-
-<!--        <div class="box">-->
-<!--            <h3>contact us</h3>-->
-<!--            <p> <i class="fas fa-envelope"></i> example@gmail.com </p>-->
-<!--            <p> <i class="fas fa-map-marker-alt"></i> City, Country - 1234 </p>-->
+<footer class="footer">
+    <div class="footer-container">
+<!--        <div class="footer-section">-->
+<!--            <h3>About Us</h3>-->
+<!--            <p>Who Are We?</p>-->
 <!--        </div>-->
-
-        <div class="box">
-    <h3>follow us</h3>
-    <a href="https://www.facebook.com//"><i class="fab fa-facebook-f"></i> Facebook</a>
-    <a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a>
-    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a> <!-- Update the Instagram URL -->
-    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> Youtube</a>
-</div>
-
-
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul class="social-links">
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://youtube.com">Youtube</a></li>
+            </ul>
+        </div>
     </div>
-
-</div>
+    <div class="footer-bottom">
+        <p>© 2024 Enviral. All rights reserved.</p>
+    </div>
+</footer>
 
 
 
